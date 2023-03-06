@@ -1,0 +1,31 @@
+{
+	"ResidentialPlaces": {
+		"Patient1": {
+			"Gender": "Male",
+			"BedType": "General",
+			"Cat": ["M/H", "PD"],
+			"SharedRoom": "Yes",
+			"SpotPurchaseBed": "Yes",
+			"BlockBookedBed": "No",
+			"Up/Downstair": "Downstairs"
+		},
+		"Patient2": {
+			"Gender": "Female",
+			"BedType": "EMD",
+			"Cat": ["LD"],
+			"SharedRoom": "Yes",
+			"SpotPurchaseBed": "No",
+			"BlockBookedBed": "No",
+			"Up/Downstair": "Upstairs"
+		},
+		"Patient3": {
+			"Gender": "Unisex",
+			"BedType": "Respite",
+			"Cat": ["DE", "SI", "LD"],
+			"SharedRoom": "No",
+			"SpotPurchaseBed": "Yes",
+			"BlockBookedBed": "No",
+			"Up/Downstair": "Downstairs"
+		}
+	}
+}

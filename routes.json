@@ -1,0 +1,10 @@
+{
+    "routes": [
+        {
+            "route": "/.auth/me",
+            "serve": "/google",
+            "methods": ["GET", "POST"],
+            "authLevel": "anonymous"
+        }
+    ]
+}

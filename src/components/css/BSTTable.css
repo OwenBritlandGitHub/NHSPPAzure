@@ -1,0 +1,50 @@
+
+
+#BSTTableControls
+{
+  display: flex;
+  justify-content: left;
+  width: 100%;
+}
+
+#BSTTableSearch input, #BSTTableSize select, #BSTTableCreate, #BSTTableDelete
+{
+  height: 40px;
+  padding: 5px;
+  margin: 5px;
+
+  border: 2px solid #000000;
+  border-radius: 5px;
+}
+
+#BSTTableSearch input:focus
+{
+  outline: none;
+}
+
+#BSTTableBody
+{
+  width: 100%;
+  border-top: 2px solid #000000;
+}
+
+#BSTTableBody tbody tr:hover
+{
+  background-color: #CCCCCC;
+
+  transition-duration: 0.2s;
+}
+.bst-table-row{
+  margin: 15px 0 15px 0;
+}
+
+#BSTTableControls{
+  margin: 5px 0 5px 0;
+}
+
+#tableHeadID{
+  border-bottom: 2px solid #000000;
+  /* Background  color #477BC2 opacity 0.3 */
+  background-color: rgba(71, 123, 194, 0.3);
+  
+}

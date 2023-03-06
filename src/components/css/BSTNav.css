@@ -1,0 +1,17 @@
+.navbar-nav-float-right{
+    /* float right */
+    float: right;
+    margin-right: 0;
+}
+#BSTNav{
+
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  /* Bottom border */
+  background-color: #fff;
+  box-shadow: 0 5px 10px rgba(90, 90, 90, 0.2);
+
+  
+}
